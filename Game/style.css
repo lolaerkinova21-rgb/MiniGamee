@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: rgb(166, 141, 104);
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: rgb(183, 131, 89);
+    font-size: 45px;
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    flex-direction: column;
+    width: 780px;
+}
+
+.one:focus{
+    color: rgb(184, 100, 77);
+    outline: none;
+}
+
